@@ -76,6 +76,9 @@ public class Order {
 
 		}
 
+		
+		System.out.println("Hi Mehmet.");
+		
 	}
 
 	public static String cardType() { // this code gives random Visa, MasterCard or American Express
@@ -164,9 +167,9 @@ public class Order {
 		return "John " + randStr + " Smith";
 	}
 
-	public static CharSequence random100() { // this is for 1-100 random number generation
+	public static String random100() { // this is for 1-100 random number generation
 		double randNumber = Math.random() * 100;
-		CharSequence randomNumber = (int) randNumber + 1 + "";
+		String randomNumber = (int) randNumber + 1 + "";
 		return randomNumber;
 	}
 
